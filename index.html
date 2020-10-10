@@ -5,34 +5,34 @@
   <body>
     <form>
       <div>
-        <label>Nom:</label>
-        <input type="text" />
+        <label for="name">Nom:</label>
+        <input type="text" type="text" id="name" name="name" />
       </div>
       <div>
-        <label for="fname">Prenom:</label>
-        <input type="text" />
+        <label for="lastName">Prenom:</label>
+        <input type="text" id="lastName" name="lastName" />
       </div>
       <div>
-        <label>email:</label>
-        <input type="text" />
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" />
       </div>
       <div>
         <label>Genre:</label><br />
-        <input type="radio" id="male" />
+        <input type="radio" id="male" name="male" />
         <label>Masculin</label><br />
-        <input type="radio" />
+        <input type="radio" id="female" name="female" />
         <label>Feminin</label><br />
       </div>
       <label>description</label><br />
-      <textarea> </textarea>
+      <textarea id="description" name="description"></textarea>
       <br />
       <div>
         <label>Date de naissance:</label><br />
-        <input type="date" /><br /><br />
+        <input type="date" id="date" name="date" /><br /><br />
       </div>
       <div>
         <label>questions de securité:</label>
-        <select>
+        <select name="security" id="security">
           <option>question1</option>
           <option>question2</option></select
         ><br /><br />
